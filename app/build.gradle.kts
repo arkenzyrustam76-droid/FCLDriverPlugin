@@ -22,12 +22,11 @@ android {
         configureEach {
             //应用名
             //app name
-            resValue("string", "app_name", "PanVK Mali")
-applicationIdSuffix = ".panvkmali"
-manifestPlaceholders["driver"] = "PanVK Mali"
-manifestPlaceholders["driverLib"] = "libvulkan_panfrost.so"
+           resValue("string", "app_name", "MaliSX2 Driver")
+applicationIdSuffix = ".malisx2"
+manifestPlaceholders["driver"] = "MaliSX2 Driver"
+manifestPlaceholders["driverLib"] = "libvulkan_malisx2.so"
 manifestPlaceholders["driverGpu"] = "mali"
-
         }
     }
     compileOptions {
